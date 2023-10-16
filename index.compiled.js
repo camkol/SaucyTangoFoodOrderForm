@@ -35335,8 +35335,8 @@
   });
   exports["default"] = void 0;
   var _react = _interopRequireDefault(require("react"));
-  var _FoodOrderForm = _interopRequireDefault(require("./FoodOrderForm"));
-  var _FoodItem = _interopRequireDefault(require("./FoodItem"));
+  var _FoodOrderForm = _interopRequireDefault(require("./FoodOrderForm.js"));
+  var _FoodItem = _interopRequireDefault(require("./FoodItem.js"));
   var _AppModule = _interopRequireDefault(require("./App.module.css"));
   var _Header = _interopRequireDefault(require("./Header.js"));
   var _jsxRuntime = require("react/jsx-runtime");
@@ -35531,7 +35531,7 @@
   
   var _react = _interopRequireDefault(require("react"));
   var _client = _interopRequireDefault(require("react-dom/client"));
-  var _App = _interopRequireDefault(require("./App"));
+  var _App = _interopRequireDefault(require("./App.js"));
   var _jsxRuntime = require("react/jsx-runtime");
   function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
   _client["default"].createRoot(document.getElementById('app')).render( /*#__PURE__*/(0, _jsxRuntime.jsx)(_App["default"], {}));
